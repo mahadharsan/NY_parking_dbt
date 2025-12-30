@@ -77,10 +77,9 @@ Open `run_sql_queries.ipynb` with Jupyter or VS Code to run SQL queries directly
 - Artifacts and run results are stored under `nyc_parking_violations_md/target/` (catalog, manifest, run_results, compiled SQL, etc.).
 - Seed and sample CSV files are in `data/` (and `nyc_parking_violations_md/seeds/` if you add them there).
 
-## 🤝 Contributing
+## 📄 License
 
-Feel free to open issues or PRs for improvements. Small, focused changes with tests are easiest to review.
+This project is licensed under the MIT License — see `LICENSE` for details.
 
-## 📄 License & contact
+For questions, message the repo owner.
 
-This repo currently has no license file — add one (e.g., `LICENSE`) if you plan to publish. For questions, message the repo owner.
