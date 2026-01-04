@@ -15,13 +15,13 @@ A concise case study implementing a dbt pipeline for exploring and transforming 
 - `env/` — Python virtual environment used for local development.
 - `requirements.txt` — Python dependencies for the environment.
 
-## ⚙️ Prerequisites
+##  Prerequisites
 
 - Python 3.10+ (recommended)
 - Git (optional)
 - dbt (installed via pip in the project venv)
 
-## 🚀 Quick setup (Windows)
+##  Quick setup (Windows)
 
 1. Activate the virtual environment (PowerShell):
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 3. Ensure `profiles.yml` is configured where dbt expects it (see `nyc_parking_violations_md/profiles.yml`). This project is configured to use DuckDB by default.
 
-## ▶️ Common dbt commands
+##  Common dbt commands
 
 Run seeds (if any):
 
@@ -68,7 +68,7 @@ dbt --project-dir nyc_parking_violations_md docs generate
 dbt --project-dir nyc_parking_violations_md docs serve
 ```
 
-## 🧪 Notebooks & local exploration
+##  Notebooks & local exploration
 
 Open `run_sql_queries.ipynb` with Jupyter or VS Code to run SQL queries directly against DuckDB and the dbt artifacts.
 
